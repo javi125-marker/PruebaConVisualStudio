@@ -1,0 +1,62 @@
+
+.cabezera h1{
+
+    padding: 45px;
+    
+    text-align: left;
+    color: white;
+    background: darkviolet;
+    
+
+}
+.flex-contenedor {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    color: white;
+    padding: 5px;
+    flex-wrap: nowrap;
+    /*justify-content: center;*/
+    align-content: space-between;
+    
+  }
+  
+  .flex-contenedor > div {
+    background-color: dodgerblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    /*flex-basis: 15px;*/
+    
+  }
+  .flex-contenedor .texto{
+    color: black;
+    background-color: white;
+  }
+   #cajas_izquierda{
+    width: 500px;
+
+  }
+  .texto  h1 {
+    width: 4px ;
+    align-self: center;
+   
+  }
+  .flex-contenedor > .caja_derecha{
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-self: flex-end ;
+  }
+  .flex-contenedor .caja_abajo {
+    align-self: flex-end;
+    width: 1500px;
+   /* margin: 70px;*/
+    /*width: 1500px;*/
+    
+  }
+   
+  
+
+  
+  
